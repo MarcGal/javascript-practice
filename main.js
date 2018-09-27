@@ -13,13 +13,13 @@
 // console.log(8 % 2 === 0);
 
 var expressionOne = ((2 * 2) + 5) * 6;
-// console.log(expressionOne);
+console.log(expressionOne);
 
 var expressionTwo = ((2* 2) + (5 * 3)) - 5;
-// console.log(expressionTwo);
+console.log(expressionTwo);
 
 var expressionThree = (5 * 5) / (5 * 5);
-// console.log(expressionThree);
+console.log(expressionThree);
 
 var expressionFour = 5 * 5 - 5 * 4;
-// console.log(expressionFour);
+console.log(expressionFour);
