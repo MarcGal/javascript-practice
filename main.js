@@ -1,25 +1,36 @@
+
+// CREATING VARIABLES
+
 // var name = 'marco';
 
-// console.log(name);
+// var age = 27;
 
-// var sum = 4 + 5;
+// var ironHacker = true;
 
-// console.log(sum);
 
-// console.log('my name is VERGON');
 
-// console.log(6 / 2);
+//Playing with expressions
 
-// console.log(8 % 2 === 0);
+// var expressionOne = ((2 * 2) + 5) * 6;
+// console.log(expressionOne);
 
-var expressionOne = ((2 * 2) + 5) * 6;
-console.log(expressionOne);
+// var expressionTwo = ((2* 2) + (5 * 3)) - 5;
+// console.log(expressionTwo);
 
-var expressionTwo = ((2* 2) + (5 * 3)) - 5;
-console.log(expressionTwo);
+// var expressionThree = (5 * 5) / (5 * 5);
+// console.log(expressionThree);
 
-var expressionThree = (5 * 5) / (5 * 5);
-console.log(expressionThree);
+// var expressionFour = 5 * 5 - 5 * 4;
+// console.log(expressionFour);
 
-var expressionFour = 5 * 5 - 5 * 4;
-console.log(expressionFour);
+
+
+
+//Accessing string values
+
+var greeting = "Hello";
+
+console.log(greeting[0]);
+console.log(greeting[3]);
+console.log(greeting[9]);
+console.log(greeting[-2]);
