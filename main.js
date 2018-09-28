@@ -59,3 +59,44 @@
 
 // console.log("dog".includes("og"));
 
+//PRACTICING IF ELSE STATEMENTS
+
+var age = parseInt(prompt("Welcome to IronHack cinema. How old are you?"));
+
+if (age <= 16) {
+  console.log ("You have a teenager discount");
+} else if (age >= 65) {
+  console.log ("You have the senior citizen discount :)");
+} else {
+  console.log ("Sorry, you have no discount :(");
+};
+
+
+
+
+var number1 = parseInt (prompt ("First number:"));
+var number2 = parseInt (prompt ("Second number:"));
+
+if (number1 === number2) {
+  console.log ("The numbers are equal");
+} else {
+  if (number1 > number2) {
+    console.log("Number 1 is bigger than number 2");
+  } else {
+    console.log("Number 1 is smaller than number 2");
+  }
+};
+
+
+
+var language = parseInt(prompt('In which language they want to see the message:'));
+
+if (language == 'spanish') {
+  console.log ("Hola Mundo");
+} else {
+  if (language == 'french') {
+    console.log("Bonjour");
+  } else {
+    console.log("Hello World!");
+  }
+}
