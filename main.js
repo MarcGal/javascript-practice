@@ -91,12 +91,13 @@ if (number1 === number2) {
 
 var language = parseInt(prompt('In which language they want to see the message:'));
 
-if (language == 'spanish') {
+if (language === "spanish") {
   console.log ("Hola Mundo");
 } else {
-  if (language == 'french') {
+  if (language === "french") {
     console.log("Bonjour");
   } else {
     console.log("Hello World!");
   }
 }
+
