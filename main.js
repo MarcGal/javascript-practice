@@ -103,31 +103,73 @@
 
 
 
-var hardWork = 3;
+// var hardWork = 3;
 
-if (hardWork > 8) {
-  console.log("You will be a great developer!");
-} else if (hardWork > 6) {
-  console.log("You're getting better, but you could be working harder!");
-} else {
-  console.log("You're slacking. I saw you fall asleep on the desk.");
+// if (hardWork > 8) {
+//   console.log("You will be a great developer!");
+// } else if (hardWork > 6) {
+//   console.log("You're getting better, but you could be working harder!");
+// } else {
+//   console.log("You're slacking. I saw you fall asleep on the desk.");
+// }
+
+// //  NOT
+// var isSmart = true;
+// if (!isSmart){
+//   console.log("Go to school!");
+// }
+
+
+// var isDeveloper = true;
+// if (isSmart && isDeveloper){
+//   console.log("Congrats, looks like you're an Ironhacker!");
+// }
+
+
+// // OR
+// var languageOfChoice = "JavaScript"
+// if (isDeveloper && (languageOfChoice === "JavaScript" || languageOfChoice === "Ruby")){
+//   console.log("You are a smart developer!");
+// }
+
+
+// var hungry = true,
+//     inTheMoodForBreakfast = true,
+//     isLunchTime = false,
+//     isDinnerTime = true,
+//     isBreakfastTime = false;
+
+// // If you're hungry, and it's lunch time
+// if (hungry && isLunchTime){
+//   console.log("Time to go to lunch!");
+// // If it is dinner time, and you're not hungry
+// } else if (isDinnerTime && !hungry){
+//   console.log("Let's go for drinks, I'm not very hungry!");
+// // If it's breakfast time, or I'm in the mood for breakfast
+// } else if (isBreakfastTime && inTheMoodForBreakfast){
+//   console.log("I could really go for some french toast...");
+// } else {
+//   console.log("Guess I'll have a snack")
+// }
+
+
+//     SWITCH STATEMENTS
+
+var pet = "tiger";
+
+switch (pet) {
+  case "cat":
+    console.log("I will break a lot of things but, hey!, I'm adorable ... ")
+    break;
+  case "dog":
+    console.log("I will be very annoying but, hey!, I'm your best friend ... ")
+    break;
+  case "hamster":
+    console.log("I will be impossible to find but, hey!, I'm really cute ... ")
+    break;
+  default:
+    console.log("I'm a special pet!")
+    break;
 }
 
-//  NOT
-var isSmart = true;
-if (!isSmart){
-  console.log("Go to school!");
-}
 
-
-var isDeveloper = true;
-if (isSmart && isDeveloper){
-  console.log("Congrats, looks like you're an Ironhacker!");
-}
-
-
-// OR
-var languageOfChoice = "JavaScript"
-if (isDeveloper && (languageOfChoice === "JavaScript" || languageOfChoice === "Ruby")){
-  console.log("You are a smart developer!");
-}
