@@ -189,33 +189,87 @@
 //     break;
 // }
 
-var name  = prompt ("Favorite Game of Thrones main character:");
-var house = "";
+// var name  = prompt ("Favorite Game of Thrones main character:");
+// var house = "";
 
-switch (name) {
-  case "Khal Drogo":
-    house = "Dothraki Horselord";
-    break;
-  case "Daenerys":
-    house = "Targaryen";
-    break;
-  case "Jon Snow":
-  case "Sansa":
-  case "Arya":
-    house = "Stark";
-    break;
-  case "twin":
-  case "tyrion":
-  case "Jamie":
-    house = "Lannister"
-    break;
-  default:
-    house = "other";
+// switch (name) {
+//   case "Khal Drogo":
+//     house = "Dothraki Horselord";
+//     break;
+//   case "Daenerys":
+//     house = "Targaryen";
+//     break;
+//   case "Jon Snow":
+//   case "Sansa":
+//   case "Arya":
+//     house = "Stark";
+//     break;
+//   case "twin":
+//   case "tyrion":
+//   case "Jamie":
+//     house = "Lannister"
+//     break;
+//   default:
+//     house = "other";
+// }
+
+// console.log("Your favorite character is from the house " + house);
+
+
+// var language = "lkn";
+
+// switch(language){
+//   case "spanish":
+//   console.log('Hola mundo!')
+//   break;
+//   case "french":
+//   console.log('Bonjour!')
+//   break;
+//   case "dutch":
+//   console.log ("Goede dag!")
+//   break;
+//   case "italian":
+//   console.log("Ciao!")
+//   break;
+//   default:
+//   console.log("Hello world!")
+// }
+
+
+//    PRACTICING LOOPS AND ITERATIONS
+
+var i = 0;
+
+while (i <= 30){
+  console.log(i);
+  i = i + 1;
+
+  if (i === 10){
+    console.log('Ten');
+  }
+  if (i === 20){
+    console.log('Twenty');
+  }
 }
 
-console.log("Your favorite character is from the house " + house);
+// PRINT NUMBERS FROM 0 TO 100
+
+for (var i = 0; i <= 100; i++) {
+  console.log(i);
+}
 
 
+// hen the break statement is used with a switch statement, 
+//it breaks out of the switch block. 
 
+var text = "";
+var i = 0;
+while (i < 5) {
+  text += "<br>The number is " + i;
+  i++;
+  if (i === 3) {
+    break;
+  }
+}
 
 
