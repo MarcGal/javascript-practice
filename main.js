@@ -152,24 +152,70 @@
 //   console.log("Guess I'll have a snack")
 // }
 
+// var name  = prompt ("Favorite Game of Thrones main character:");
+// var house = "";
+
+// if (name === "Khal Drogo") {
+//   house = "Dothraki Horselord";
+// } else if (name === "Daenerys") {
+//   house = "Targaryen";
+// } else if (name === "Jon Snow" || name === "Sansa" || name === "Arya") {
+//   house = "Stark";
+// } else if (name === "Cersei" || name === "Tyrion" || name === "Ser Jaime") {
+//   house = "Lannister";
+// } else {
+//   house = "Other";
+// }
+
+// console.log("Your favorite character is from the house " + house);
+
 
 //     SWITCH STATEMENTS
 
-var pet = "tiger";
+// var pet = "tiger";
 
-switch (pet) {
-  case "cat":
-    console.log("I will break a lot of things but, hey!, I'm adorable ... ")
+// switch (pet) {
+//   case "cat":
+//     console.log("I will break a lot of things but, hey!, I'm adorable ... ")
+//     break;
+//   case "dog":
+//     console.log("I will be very annoying but, hey!, I'm your best friend ... ")
+//     break;
+//   case "hamster":
+//     console.log("I will be impossible to find but, hey!, I'm really cute ... ")
+//     break;
+//   default:
+//     console.log("I'm a special pet!")
+//     break;
+// }
+
+var name  = prompt ("Favorite Game of Thrones main character:");
+var house = "";
+
+switch (name) {
+  case "Khal Drogo":
+    house = "Dothraki Horselord";
     break;
-  case "dog":
-    console.log("I will be very annoying but, hey!, I'm your best friend ... ")
+  case "Daenerys":
+    house = "Targaryen";
     break;
-  case "hamster":
-    console.log("I will be impossible to find but, hey!, I'm really cute ... ")
+  case "Jon Snow":
+  case "Sansa":
+  case "Arya":
+    house = "Stark";
+    break;
+  case "twin":
+  case "tyrion":
+  case "Jamie":
+    house = "Lannister"
     break;
   default:
-    console.log("I'm a special pet!")
-    break;
+    house = "other";
 }
+
+console.log("Your favorite character is from the house " + house);
+
+
+
 
 
