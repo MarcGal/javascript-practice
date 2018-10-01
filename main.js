@@ -61,43 +61,73 @@
 
 //PRACTICING IF ELSE STATEMENTS
 
-var age = parseInt(prompt("Welcome to IronHack cinema. How old are you?"));
+// var age = parseInt(prompt("Welcome to IronHack cinema. How old are you?"));
 
-if (age <= 16) {
-  console.log ("You have a teenager discount");
-} else if (age >= 65) {
-  console.log ("You have the senior citizen discount :)");
+// if (age <= 16) {
+//   console.log ("You have a teenager discount");
+// } else if (age >= 65) {
+//   console.log ("You have the senior citizen discount :)");
+// } else {
+//   console.log ("Sorry, you have no discount :(");
+// };
+
+
+
+
+// var number1 = parseInt (prompt ("First number:"));
+// var number2 = parseInt (prompt ("Second number:"));
+
+// if (number1 === number2) {
+//   console.log ("The numbers are equal");
+// } else {
+//   if (number1 > number2) {
+//     console.log("Number 1 is bigger than number 2");
+//   } else {
+//     console.log("Number 1 is smaller than number 2");
+//   }
+// };
+
+
+
+// var language = parseInt(prompt('In which language they want to see the message: '));
+
+// if (language === "spanish") {
+//   console.log ("Hola Mundo");
+// } else {
+//   if (language === "french") {
+//     console.log("Bonjour");
+//   } else {
+//     console.log("Hello World!");
+//   }
+// }
+
+
+
+var hardWork = 3;
+
+if (hardWork > 8) {
+  console.log("You will be a great developer!");
+} else if (hardWork > 6) {
+  console.log("You're getting better, but you could be working harder!");
 } else {
-  console.log ("Sorry, you have no discount :(");
-};
-
-
-
-
-var number1 = parseInt (prompt ("First number:"));
-var number2 = parseInt (prompt ("Second number:"));
-
-if (number1 === number2) {
-  console.log ("The numbers are equal");
-} else {
-  if (number1 > number2) {
-    console.log("Number 1 is bigger than number 2");
-  } else {
-    console.log("Number 1 is smaller than number 2");
-  }
-};
-
-
-
-var language = parseInt(prompt('In which language they want to see the message:'));
-
-if (language === "spanish") {
-  console.log ("Hola Mundo");
-} else {
-  if (language === "french") {
-    console.log("Bonjour");
-  } else {
-    console.log("Hello World!");
-  }
+  console.log("You're slacking. I saw you fall asleep on the desk.");
 }
 
+//  NOT
+var isSmart = true;
+if (!isSmart){
+  console.log("Go to school!");
+}
+
+
+var isDeveloper = true;
+if (isSmart && isDeveloper){
+  console.log("Congrats, looks like you're an Ironhacker!");
+}
+
+
+// OR
+var languageOfChoice = "JavaScript"
+if (isDeveloper && (languageOfChoice === "JavaScript" || languageOfChoice === "Ruby")){
+  console.log("You are a smart developer!");
+}
