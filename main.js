@@ -275,16 +275,49 @@
 
 //----------------- Practicing Arrays ------------------
 
-var animalArray = ["Dog", "Cat", "Fish"];
+// var animalArray = ["Dog", "Cat", "Fish"];
 
-console.log(animalArray.length);
+// console.log(animalArray.length);
 
-// Notice, it's the length - 1
-// The array's index starts at 0, and we must compensate
-var lastIndex = animalArray.length - 1;
-var lastElement = animalArray[lastIndex];
+// // Notice, it's the length - 1
+// // The array's index starts at 0, and we must compensate
+// var lastIndex = animalArray.length - 1;
+// var lastElement = animalArray[lastIndex];
 
-console.log(lastElement);
+// console.log(lastElement);
+
+// ADDING ELEMENTS TO AN ARRAY
+
+// var animalArray = ["Dog", "Cat", "Fish"];
+// console.log("Original: " + animalArray);
+
+// animalArray[6] = "Turtle";
+// console.log("Adding some element: " + animalArray);
+
+// animalArray[2] = "Snake";
+// console.log("Updating some element: " + animalArray);
+
+
+// REMOVING ELEMENTS
+
+var animalArray = ["Dog", "Cat", "Fish", "Lizard", "Whale", "Cheetah"];
+console.log("Original: " + animalArray);
+console.log("------");
+
+// "From the first element, remove one going forward"
+animalArray.splice(0, 1);
+console.log(animalArray);
+
+//  "From the second element, remove two going forward"
+animalArray = ["Dog", "Cat", "Fish", "Lizard", "Whale", "Cheetah"];
+animalArray.splice(2, 2);
+console.log(animalArray);
+
+// If we pass a third argument
+// It is inserted as the replacement
+animalArray = ["Dog", "Cat", "Fish", "Lizard", "Whale", "Cheetah"];
+animalArray.splice(0, 1, "Something else");
+console.log(animalArray);
 
 
 
