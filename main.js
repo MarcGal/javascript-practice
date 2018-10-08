@@ -300,26 +300,44 @@
 
 // REMOVING ELEMENTS
 
+// var animalArray = ["Dog", "Cat", "Fish", "Lizard", "Whale", "Cheetah"];
+// console.log("Original: " + animalArray);
+// console.log("------");
+
+// "From the first element, remove one going forward"
+// animalArray.splice(0, 1);
+// console.log(animalArray);
+
+// //  "From the second element, remove two going forward"
+// animalArray = ["Dog", "Cat", "Fish", "Lizard", "Whale", "Cheetah"];
+// animalArray.splice(2, 2);
+// console.log(animalArray);
+
+// // If we pass a third argument
+// // It is inserted as the replacement
+// animalArray = ["Dog", "Cat", "Fish", "Lizard", "Whale", "Cheetah"];
+// animalArray.splice(0, 1, "Something else");
+// console.log(animalArray);
+
+// Exercise
+
+// Let’s perform a few operations on the array above.
+
+// Add two of your favorite animals to the end of the array.
+// Remove the first two elements of the array.
+// Replace the last element in the array with the word “last”.
+
 var animalArray = ["Dog", "Cat", "Fish", "Lizard", "Whale", "Cheetah"];
 console.log("Original: " + animalArray);
 console.log("------");
 
-// "From the first element, remove one going forward"
-animalArray.splice(0, 1);
+animalArray.push('crocodile', 'shark');
 console.log(animalArray);
 
-//  "From the second element, remove two going forward"
-animalArray = ["Dog", "Cat", "Fish", "Lizard", "Whale", "Cheetah"];
-animalArray.splice(2, 2);
+animalArray.splice(0,2);
 console.log(animalArray);
 
-// If we pass a third argument
-// It is inserted as the replacement
-animalArray = ["Dog", "Cat", "Fish", "Lizard", "Whale", "Cheetah"];
-animalArray.splice(0, 1, "Something else");
+// animalArray.splice(5,1,'last');
 console.log(animalArray);
-
-
-
 
 
