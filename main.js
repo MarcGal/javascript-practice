@@ -327,17 +327,32 @@
 // Remove the first two elements of the array.
 // Replace the last element in the array with the word “last”.
 
-var animalArray = ["Dog", "Cat", "Fish", "Lizard", "Whale", "Cheetah"];
-console.log("Original: " + animalArray);
-console.log("------");
+// var animalArray = ["Dog", "Cat", "Fish", "Lizard", "Whale", "Cheetah"];
+// console.log("Original: " + animalArray);
+// console.log("------");
 
-animalArray.push('crocodile', 'shark');
-console.log(animalArray);
+// animalArray.push('crocodile', 'shark');
+// console.log(animalArray);
 
-animalArray.splice(0,2);
-console.log(animalArray);
+// animalArray.splice(0,2);
+// console.log(animalArray);
 
-// animalArray.splice(5,1,'last');
-console.log(animalArray);
+// // animalArray.splice(5,1,'last');
+// console.log(animalArray);
+
+// WHILE LOOP
+
+var counter = 0;
+var animalArray = ["Dog", "Cat", "Fish"];
+
+while (counter < animalArray.length){
+  console.log(animalArray[counter]);
+  counter++;
+}
+
+// FOR LOOP
+
+
+// FOR EACH
 
 
