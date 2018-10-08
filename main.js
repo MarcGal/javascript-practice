@@ -238,38 +238,55 @@
 
 //    PRACTICING LOOPS AND ITERATIONS
 
-var i = 0;
+// var i = 0;
 
-while (i <= 30){
-  console.log(i);
-  i = i + 1;
+// while (i <= 30){
+//   console.log(i);
+//   i = i + 1;
 
-  if (i === 10){
-    console.log('Ten');
-  }
-  if (i === 20){
-    console.log('Twenty');
-  }
-}
+//   if (i === 10){
+//     console.log('Ten');
+//   }
+//   if (i === 20){
+//     console.log('Twenty');
+//   }
+// }
 
-// PRINT NUMBERS FROM 0 TO 100
+// // PRINT NUMBERS FROM 0 TO 100
 
-for (var i = 0; i <= 100; i++) {
-  console.log(i);
-}
+// for (var i = 0; i <= 100; i++) {
+//   console.log(i);
+// }
 
 
-// hen the break statement is used with a switch statement, 
-//it breaks out of the switch block. 
+// // hen the break statement is used with a switch statement, 
+// //it breaks out of the switch block. 
 
-var text = "";
-var i = 0;
-while (i < 5) {
-  text += "<br>The number is " + i;
-  i++;
-  if (i === 3) {
-    break;
-  }
-}
+// var text = "";
+// var i = 0;
+// while (i < 5) {
+//   text += "<br>The number is " + i;
+//   i++;
+//   if (i === 3) {
+//     break;
+//   }
+// }
+
+
+//----------------- Practicing Arrays ------------------
+
+var animalArray = ["Dog", "Cat", "Fish"];
+
+console.log(animalArray.length);
+
+// Notice, it's the length - 1
+// The array's index starts at 0, and we must compensate
+var lastIndex = animalArray.length - 1;
+var lastElement = animalArray[lastIndex];
+
+console.log(lastElement);
+
+
+
 
 
