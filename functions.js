@@ -6,3 +6,13 @@ function sayHelloManyTimes(name, howManyTimes) {
 
 sayHelloManyTimes('Marco', 4);
 sayHelloManyTimes(3,'error');
+
+sayHelloManyTimes(3, 'ERROR');
+// Will this work? NO
+
+sayHelloManyTimes(2);
+// Will this work? NO
+
+sayHelloManyTimes('ironBrain');
+// Will this work? NO
+
