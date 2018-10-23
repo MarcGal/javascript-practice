@@ -43,3 +43,5 @@ function gradeTheStudent () {
 var myGrade = gradeTheStudent();
 console.log(myGrade);
 
+
+

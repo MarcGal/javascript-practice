@@ -26,30 +26,37 @@
 
 
 
-//Accessing string values
+// //Accessing string values
 
 // var greeting = "Hello";
 
 // console.log(greeting[0]);
+// // h
 // console.log(greeting[3]);
+// //l
 // console.log(greeting[9]);
-// console.log(greeting[-2]);
+// //Undefined
+
 
 //FINDING CHARACTERS
 
 // var favoritePhrase = "Don't be evil";
 
 // console.log(favoritePhrase.indexOf("Don't"));
+// // 0
 
 // console.log(favoritePhrase.indexOf("e"));
+
 // // This is 7 because indexOf prints the FIRST occurance
 
 // console.log(favoritePhrase.indexOf("z"));
+
 // // It's not found so the index is -1
 
 // var dessert = 'My favorite dessert is jello';
 
 // console.log(dessert.indexOf('j'));
+
 
 // REPEAT
 
