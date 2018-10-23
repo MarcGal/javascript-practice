@@ -44,6 +44,31 @@ oneFunction("Lluis");
 // console.log(myGrade);
 
 
+//-------------------- PRACTICING ABSTRACTION WITH FUNCTIONS ------------------------------
+
+//with a function, we can event set different limit each time we call the function
+// function getRandomNumber(limit){
+//   return Math.floor(Math.random()*(limit+1))
+// }
+
+// function makeAQuizz(limit){
+//   var generateQuizz = getRandomNumber(limit) + "+" + getRandomNumber(limit)
+//   return generateQuizz;
+// }
+
+// newQuizz = makeAQuizz(100);
+
+// console.log(newQuizz);
+
+function noReturn(){
+  var foo = 'fighters';
+  // what if... there is no return?
+}
+
+var bar = noReturn();
+
+console.log(bar);
+
 
 
 
