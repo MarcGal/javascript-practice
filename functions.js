@@ -30,18 +30,20 @@ function oneFunction(name) {
 oneFunction("Lluis");
 */
 
-function gradeTheStudent () {
-  var grades = ['Master', 'Good', 'Acceptable', 'Average', 'Poor', 'Fail'];
+// function gradeTheStudent () {
+//   var grades = ['Master', 'Good', 'Acceptable', 'Average', 'Poor', 'Fail'];
 
-  var randomNumber = Math.random();            // Random decimal [0.0 - 1.0)
-  randomNumber = randomNumber * grades.length; // Random decimal [0.0 - 6.0)
-  randomNumber = Math.floor(randomNumber);     // Random integer [0   - 5]
+//   var randomNumber = Math.random();            // Random decimal [0.0 - 1.0)
+//   randomNumber = randomNumber * grades.length; // Random decimal [0.0 - 6.0)
+//   randomNumber = Math.floor(randomNumber);     // Random integer [0   - 5]
 
-  return grades[randomNumber];
-}
+//   return grades[randomNumber];
+// }
 
-var myGrade = gradeTheStudent();
-console.log(myGrade);
+// var myGrade = gradeTheStudent();
+// console.log(myGrade);
+
+
 
 
 
