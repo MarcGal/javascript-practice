@@ -25,7 +25,7 @@ function printStars(howMany){
   printStars(num)
 });
 
-//------------------- Split function on string----------------
+//------------------- Split function on stringls----------------
 
 var phrase = "This is long enough for a string to count it words";
 
