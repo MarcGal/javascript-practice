@@ -27,5 +27,7 @@ olympicRecords.doubleOllie = "Chris Chann";
 
 delete olympicRecords.doubleOllie;
 
-console.log(olympicRecords);
+// --------------- listing object properties -------------
+
+console.log(Object.keys(olympicRecords));
 
